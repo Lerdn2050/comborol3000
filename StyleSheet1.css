@@ -1,0 +1,219 @@
+body {
+	background: #111131;
+}
+
+.zagolovok {
+	position: relative;
+	display: flex;
+	font-family: Calibri;
+	font-size: 3.33em;
+	align-items: center;
+	justify-content: center;
+	color:#0cc;
+}
+.textcontent {
+	position: relative;
+	display: flex;
+	font-family: Calibri;
+	font-size: 1.666em;
+	margin: 5% 30% 30% 20%;
+	color:#0cc;
+}
+.textcontent2 {
+	position: relative;
+	display: flex;
+	font-family: Calibri;
+	font-size: 1.666em;
+	margin: -25% 20% 3% 20%;
+	color: #0cc;
+}
+.textcontent02 {
+	position: relative;
+	display: flex;
+	font-family: Calibri;
+	font-size: 1.666em;
+	margin: 3% 20% 2% 20%;
+	color: #0cc;
+}
+.textcontent3 {
+	position: relative;
+	display: inline-block;
+	font-family: Calibri;
+	font-size: 1.666em;
+	margin: -29% 20% 1% 20%;
+	color: #0cc;
+}
+.textcontent03 {
+	position: relative;
+	display: inline-block;
+	font-family: Calibri;
+	font-size: 1.666em;
+	margin: 1% 20% 2% 20%;
+	color: #0cc;
+}
+.textcontent4 {
+	position: relative;
+	display: inline-block;
+	font-family: Calibri;
+	font-size: 1.666em;
+	margin: -29% 0% 1% -29%;
+	color: #0cc;
+}
+.textcontent04 {
+	position: relative;
+	display: inline-block;
+	font-family: Calibri;
+	font-size: 1.666em;
+	margin: 1% 0% 1% -29%;
+	color: #0cc;
+}
+.signup-text-input {
+	width: 30%;
+	position: relative;
+	display: flex;
+	font-family: Calibri;
+	font-size: 1.666em;
+	margin: -29% 30% 30% 20%;
+}
+button {
+	width: auto;
+	height: 10%;
+	position: relative;
+	display: flex;
+	font-family: Calibri;
+	font-size: 1.666em;
+	margin: -29% 10% 34% 20%;
+	box-shadow: 9px 23px 67px -5px rgba(0, 200, 200, 0.31);
+	transition: 0.2s all;
+}
+	button:active {
+		transform: scale(0.98);
+		box-shadow: none;
+	}
+.conteiner {
+	margin: 4.3% 0% 0% 0%;
+	height: 100%;
+	width: 100%;
+}
+.newblock {
+	position: relative;
+	display: flex;
+	padding: 1% 1% 1% 1%;
+	margin: 1% 0% 0% 0%;
+	font-family: Calibri;
+	font-size: 1.666em;
+	background: #000;
+	color:aqua;
+}
+	.newblock:hover {
+		transition-duration: 0s;
+	}
+
+#input2 {
+	display:inline-block;
+	width: 10%;
+	margin: -39% 30% 30% -19%;
+	background-color:#000;
+	color:aqua;
+}
+#input3 {
+	display: inline-block;
+	width: 10%;
+	margin: -39% 30% 30% 1%;
+	background-color: #000;
+	color: aqua;
+}
+#input01 {
+	display: inline-block;
+	width: 20%;
+	margin: -39% 30% 0% -19%;
+	background-color: #000;
+	color: aqua;
+}
+#input001 {
+	display: inline-block;
+	width: 20%;
+	margin: 0% 30% 0% -19%;
+	background-color: #000;
+	color: aqua;
+}
+#input02 {
+	display: inline-block;
+	width: 10%;
+	margin: -39% 30% 0% 1%;
+	background-color: #000;
+	color: aqua;
+}
+#input002 {
+	display: inline-block;
+	width: 10%;
+	margin: 0% 30% 0% 1%;
+	background-color: #000;
+	color: aqua;
+}
+
+#input03 {
+	display: inline-block;
+	width: 10%;
+	margin: -39% 0% 0% 1%;
+	background-color: #000;
+	color: aqua;
+}
+#input003 {
+	display: inline-block;
+	width: 10%;
+	margin: 0% 0% 0% 1.5%;
+	background-color: #000;
+	color: aqua;
+}
+#input {
+	background-color: #000;
+	color: aqua;
+}
+.inline {
+	display: inline-block;
+	margin: 0% -15% 34% 20%;
+}
+.inline0 {
+	display: inline-block;
+	margin: 0% -15% 4% 20%;
+}
+.fixbut0 {
+	position: fixed;
+	width: 15%;
+	height: 30%;
+	margin: 60vh 8% 3% 2vw;
+	border-radius: 50%;
+	background-color: #000;
+	cursor: pointer;
+	overflow: hidden;
+	white-space: nowrap;
+}
+.fixbutext0 {
+	margin: -4vh 2vw 1vw 2vw;
+	background-color: #ffffff00;
+	text-align: center;
+	font-size: 13vmax;
+	color: #4cff00;
+	pointer-events: none;
+}
+.fixbut1 {
+	position: fixed;
+	width: 15vw;
+	height: 30vh;
+	margin: 60vh 8% 3% 82%;
+	border-radius: 50%;
+	background-color: #000;
+	cursor: pointer;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.fixbutext1 {
+	margin: -4vh 2vw 1vw 0vw;
+	background-color: #ffffff00;
+	text-align: center;
+	font-size: 13vmax;
+	color: #4cff00;
+	pointer-events: none;
+}
