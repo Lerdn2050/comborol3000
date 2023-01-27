@@ -11,14 +11,14 @@ function newTsicl() {
 	const conteiner = document.querySelector('.conteiner');
 	const newblock = document.createElement('div');
 	newblock.classList.add('textcontent02');
-	newblock.insertAdjacentText("beforeend", "введите характеристики элемента комбинации");
+	newblock.insertAdjacentText("beforeend", "enter the characteristics of the combination element");
 	/*newblock.insertAdjacentText("afterbegin", document.getElementById("input").value);*/
 	conteiner.appendChild(newblock)
 
 	const conteiner1 = document.querySelector('.conteiner');
 	const newblock1 = document.createElement('div');
 	newblock1.classList.add('textcontent03');
-	newblock1.insertAdjacentText("beforeend", "имя");
+	newblock1.insertAdjacentText("beforeend", "name");
 	conteiner1.appendChild(newblock1)
 
 	const conteiner2 = document.querySelector('.conteiner');
@@ -31,7 +31,7 @@ function newTsicl() {
 	const conteiner3 = document.querySelector('.conteiner');
 	const newblock3 = document.createElement('div');
 	newblock3.classList.add('textcontent04');
-	newblock3.insertAdjacentText("beforeend", "теги");
+	newblock3.insertAdjacentText("beforeend", "tags");
 	conteiner3.appendChild(newblock3)
 
 	const conteiner4 = document.querySelector('.conteiner');
@@ -44,7 +44,7 @@ function newTsicl() {
 	const conteiner5 = document.querySelector('.conteiner');
 	const newblock5 = document.createElement('div');
 	newblock5.classList.add('textcontent04');
-	newblock5.insertAdjacentText("beforeend", "вес");
+	newblock5.insertAdjacentText("beforeend", "weight");
 	conteiner5.appendChild(newblock5)
 
 	const conteiner6 = document.querySelector('.conteiner');
